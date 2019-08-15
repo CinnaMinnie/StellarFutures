@@ -1,39 +1,44 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="StellarFutures.ca" resolutions="1x" timestamp="1565880032009">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="StellarFutures.ca" resolutions="1x" timestamp="1565896965222">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="131056791" ref="index"/>
-    <file name="nomq_index.css" crc="4291576367" ref="index"/>
-    <file name="carington-house.css" crc="484899089" ref="carington-house"/>
+    <file name="index.css" crc="3942162343" ref="index"/>
+    <file name="nomq_index.css" crc="490651170" ref="index"/>
+    <file name="carington-house.css" crc="4293123368" ref="carington-house"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
+    <file name="the-atlantic-salmon-cycle.css" crc="123453748" ref="the-atlantic-salmon-cycle"/>
+    <file name="nomq_the-atlantic-salmon-cycle.css" crc="4268503047" ref="the-atlantic-salmon-cycle"/>
+    <file name="nomq_carington-house.css" crc="3765020592" ref="carington-house"/>
   </folder>
   <folder name="assets">
     <file name="sky01.mp4" crc="479705303" seo="true" mt="1557946940000"/>
     <file name="caringtonpromo_09.mp4" crc="4019077088" seo="true" mt="1559752554000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:carington-house"/>
-    <file name="museutils.js" crc="340535759" ref="index:carington-house"/>
-    <file name="whatinput.js" crc="86476730" ref="index:carington-house"/>
-    <file name="museconfig.js" crc="310584261" ref="index:carington-house"/>
-    <file name="jquery.watch.js" crc="51536988" ref="index:carington-house"/>
-    <file name="jquery.musemenu.js" crc="510910590" ref="index"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:carington-house"/>
-    <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
-    <file name="require.js" crc="7928878" ref="index:carington-house"/>
-    <file name="webpro.js" crc="4059564322" ref="carington-house"/>
-    <file name="musewpslideshow.js" crc="3862962738" ref="carington-house"/>
-    <file name="jquery.museoverlay.js" crc="4147669564" ref="carington-house"/>
-    <file name="touchswipe.js" crc="4075097462" ref="carington-house"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index:carington-house"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:carington-house:the-atlantic-salmon-cycle"/>
+    <file name="museutils.js" crc="340535759" ref="index:carington-house:the-atlantic-salmon-cycle"/>
+    <file name="whatinput.js" crc="86476730" ref="index:carington-house:the-atlantic-salmon-cycle"/>
+    <file name="museconfig.js" crc="310584261" ref="index:carington-house:the-atlantic-salmon-cycle"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:carington-house:the-atlantic-salmon-cycle"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index:carington-house:the-atlantic-salmon-cycle"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:carington-house:the-atlantic-salmon-cycle"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index:carington-house:the-atlantic-salmon-cycle"/>
+    <file name="require.js" crc="7928878" ref="index:carington-house:the-atlantic-salmon-cycle"/>
+    <file name="webpro.js" crc="4059564322" ref="carington-house:the-atlantic-salmon-cycle"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="carington-house:the-atlantic-salmon-cycle"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="carington-house:the-atlantic-salmon-cycle"/>
+    <file name="touchswipe.js" crc="4075097462" ref="carington-house:the-atlantic-salmon-cycle"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index:carington-house:the-atlantic-salmon-cycle"/>
   </folder>
   <folder name="images">
-    <file name="carington01.jpg" crc="283361417" ref="carington-house">
-      <caption webpage="carington-house" alt=""/>
+    <file name="carington01.jpg" crc="283361417" ref="carington-house:the-atlantic-salmon-cycle">
+      <caption webpage="the-atlantic-salmon-cycle" alt=""/>
       <caption webpage="test2" alt=""/>
+      <caption webpage="carington-house" alt=""/>
     </file>
-    <file name="carington02.jpg" crc="4061564714" ref="carington-house">
-      <caption webpage="carington-house" alt=""/>
+    <file name="carington02.jpg" crc="4061564714" ref="carington-house:the-atlantic-salmon-cycle">
+      <caption webpage="the-atlantic-salmon-cycle" alt=""/>
       <caption webpage="test2" alt=""/>
+      <caption webpage="carington-house" alt=""/>
     </file>
     <file name="stellarfutures_04-02.png" crc="4234258090" ref="index">
       <caption webpage="index" alt=""/>
@@ -51,8 +56,32 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:carington-house:the-atlantic-salmon-cycle"/>
+    <file name="oceancareers_02.jpg" crc="4173030778" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="stembutton01.png" crc="106206004" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="oceancareersbutton01.png" crc="432522703" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="caringtonbutton01.png" crc="3836460135" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="smartgridbutton01.png" crc="4206281373" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="carington01-u1194-fr.jpg" crc="4204835102" ref="carington-house:the-atlantic-salmon-cycle"/>
+    <file name="carington02-u1195-fr.jpg" crc="3828950907" ref="carington-house:the-atlantic-salmon-cycle"/>
   </folder>
-  <file name="index.html" crc="3814628832" seo="true" mt="1565878657615" redirect="true"/>
-  <file name="carington-house.html" crc="431642058" seo="true" mt="1565877922588" redirect="true"/>
+  <file name="index.html" crc="4111438021" seo="true" mt="1565896304955" redirect="true"/>
+  <file name="carington-house.html" crc="311700001" seo="true" mt="1565881420795" redirect="true"/>
+  <file name="the-atlantic-salmon-cycle.html" crc="4078351290" seo="true" mt="1565894506260" redirect="true"/>
 </manifest>
