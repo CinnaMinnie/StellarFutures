@@ -1,0 +1,58 @@
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="StellarFutures.ca" resolutions="1x" timestamp="1565880032009">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="131056791" ref="index"/>
+    <file name="nomq_index.css" crc="4291576367" ref="index"/>
+    <file name="carington-house.css" crc="484899089" ref="carington-house"/>
+    <file name="iefonts_index.css" crc="3824530138" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="sky01.mp4" crc="479705303" seo="true" mt="1557946940000"/>
+    <file name="caringtonpromo_09.mp4" crc="4019077088" seo="true" mt="1559752554000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:carington-house"/>
+    <file name="museutils.js" crc="340535759" ref="index:carington-house"/>
+    <file name="whatinput.js" crc="86476730" ref="index:carington-house"/>
+    <file name="museconfig.js" crc="310584261" ref="index:carington-house"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:carington-house"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:carington-house"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
+    <file name="require.js" crc="7928878" ref="index:carington-house"/>
+    <file name="webpro.js" crc="4059564322" ref="carington-house"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="carington-house"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="carington-house"/>
+    <file name="touchswipe.js" crc="4075097462" ref="carington-house"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index:carington-house"/>
+  </folder>
+  <folder name="images">
+    <file name="carington01.jpg" crc="283361417" ref="carington-house">
+      <caption webpage="carington-house" alt=""/>
+      <caption webpage="test2" alt=""/>
+    </file>
+    <file name="carington02.jpg" crc="4061564714" ref="carington-house">
+      <caption webpage="carington-house" alt=""/>
+      <caption webpage="test2" alt=""/>
+    </file>
+    <file name="stellarfutures_04-02.png" crc="4234258090" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="engeniouslink01.jpg" crc="168896818" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="smartgrid_01.png" crc="4182402895" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="caringtonlink01.jpg" crc="3845010518" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+  </folder>
+  <file name="index.html" crc="3814628832" seo="true" mt="1565878657615" redirect="true"/>
+  <file name="carington-house.html" crc="431642058" seo="true" mt="1565877922588" redirect="true"/>
+</manifest>
