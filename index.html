@@ -11,114 +11,475 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "jquery.musemenu.js", "jquery.museresponsive.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.musemenu.js", "jquery.museresponsive.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3942162343" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=3948778410"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=480071796" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?crc=3824530138"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=490651170" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?crc=498782249"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=442614339" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
    var __adobewebfontsappname__ = "muse";
 </script>
   <!-- JS includes -->
-  <script src="https://webfonts.creativecloud.com/raleway:n3,n2:default.js" type="text/javascript"></script>
+  <script src="https://webfonts.creativecloud.com/raleway:n2,n3,n7:default.js" type="text/javascript"></script>
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
   <![endif]-->
-   </head>
+    <!--HTML Widget code-->
+  
+    <style>
+      body #page .menu{opacity:0;visibility:hidden}body #page .menu.mt-scroll-slide-top,body #page .menu.mt-scroll-slide-right,body #page .menu.mt-scroll-slide-bottom,body #page .menu.mt-scroll-slide-left{transition:opacity 250ms ease-out,visibility 250ms ease-out,-webkit-transform 250ms ease-out;transition:transform 250ms ease-out,opacity 250ms ease-out,visibility 250ms ease-out;transition:transform 250ms ease-out,opacity 250ms ease-out,visibility 250ms ease-out,-webkit-transform 250ms ease-out}body #page .menu.mt-scroll-slide-top.mt-scroll-show,body #page .menu.mt-scroll-slide-right.mt-scroll-show,body #page .menu.mt-scroll-slide-bottom.mt-scroll-show,body #page .menu.mt-scroll-slide-left.mt-scroll-show{opacity:1;visibility:visible}body #page .menu.mt-scroll-slide-top.mt-scroll-hide,body #page .menu.mt-scroll-slide-right.mt-scroll-hide,body #page .menu.mt-scroll-slide-bottom.mt-scroll-hide,body #page .menu.mt-scroll-slide-left.mt-scroll-hide{opacity:0;visibility:hidden}body #page .menu.mt-scroll-slide-top.mt-scroll-show{-webkit-transform:translateY(0%);-ms-transform:translateY(0%);transform:translateY(0%)}body #page .menu.mt-scroll-slide-top.mt-scroll-hide{-webkit-transform:translateY(-100%);-ms-transform:translateY(-100%);transform:translateY(-100%)}body #page .menu.mt-scroll-slide-right.mt-scroll-show{-webkit-transform:translateX(0%);-ms-transform:translateX(0%);transform:translateX(0%)}body #page .menu.mt-scroll-slide-right.mt-scroll-hide{-webkit-transform:translateX(100%);-ms-transform:translateX(100%);transform:translateX(100%)}body #page .menu.mt-scroll-slide-bottom.mt-scroll-show{-webkit-transform:translateY(0%);-ms-transform:translateY(0%);transform:translateY(0%)}body #page .menu.mt-scroll-slide-bottom.mt-scroll-hide{-webkit-transform:translateY(100%);-ms-transform:translateY(100%);transform:translateY(100%)}body #page .menu.mt-scroll-slide-left.mt-scroll-show{-webkit-transform:translateX(0%);-ms-transform:translateX(0%);transform:translateX(0%)}body #page .menu.mt-scroll-slide-left.mt-scroll-hide{-webkit-transform:translateX(-100%);-ms-transform:translateX(-100%);transform:translateX(-100%)}body #page .menu.mt-scroll-fade{transition:opacity 250ms ease-out,visibility 250ms ease-out}body #page .menu.mt-scroll-fade.mt-scroll-show{opacity:1;visibility:visible}body #page .menu.mt-scroll-fade.mt-scroll-hide{opacity:0;visibility:hidden}
+
+    </style>
+    
+    
+    <style>
+      body #page .style1{opacity:0;visibility:hidden}body #page .style1.mt-scroll-slide-top,body #page .style1.mt-scroll-slide-right,body #page .style1.mt-scroll-slide-bottom,body #page .style1.mt-scroll-slide-left{transition:opacity 250ms ease-out,visibility 250ms ease-out,-webkit-transform 250ms ease-out;transition:transform 250ms ease-out,opacity 250ms ease-out,visibility 250ms ease-out;transition:transform 250ms ease-out,opacity 250ms ease-out,visibility 250ms ease-out,-webkit-transform 250ms ease-out}body #page .style1.mt-scroll-slide-top.mt-scroll-show,body #page .style1.mt-scroll-slide-right.mt-scroll-show,body #page .style1.mt-scroll-slide-bottom.mt-scroll-show,body #page .style1.mt-scroll-slide-left.mt-scroll-show{opacity:1;visibility:visible}body #page .style1.mt-scroll-slide-top.mt-scroll-hide,body #page .style1.mt-scroll-slide-right.mt-scroll-hide,body #page .style1.mt-scroll-slide-bottom.mt-scroll-hide,body #page .style1.mt-scroll-slide-left.mt-scroll-hide{opacity:0;visibility:hidden}body #page .style1.mt-scroll-slide-top.mt-scroll-show{-webkit-transform:translateY(0%);-ms-transform:translateY(0%);transform:translateY(0%)}body #page .style1.mt-scroll-slide-top.mt-scroll-hide{-webkit-transform:translateY(-100%);-ms-transform:translateY(-100%);transform:translateY(-100%)}body #page .style1.mt-scroll-slide-right.mt-scroll-show{-webkit-transform:translateX(0%);-ms-transform:translateX(0%);transform:translateX(0%)}body #page .style1.mt-scroll-slide-right.mt-scroll-hide{-webkit-transform:translateX(100%);-ms-transform:translateX(100%);transform:translateX(100%)}body #page .style1.mt-scroll-slide-bottom.mt-scroll-show{-webkit-transform:translateY(0%);-ms-transform:translateY(0%);transform:translateY(0%)}body #page .style1.mt-scroll-slide-bottom.mt-scroll-hide{-webkit-transform:translateY(100%);-ms-transform:translateY(100%);transform:translateY(100%)}body #page .style1.mt-scroll-slide-left.mt-scroll-show{-webkit-transform:translateX(0%);-ms-transform:translateX(0%);transform:translateX(0%)}body #page .style1.mt-scroll-slide-left.mt-scroll-hide{-webkit-transform:translateX(-100%);-ms-transform:translateX(-100%);transform:translateX(-100%)}body #page .style1.mt-scroll-fade{transition:opacity 250ms ease-out,visibility 250ms ease-out}body #page .style1.mt-scroll-fade.mt-scroll-show{opacity:1;visibility:visible}body #page .style1.mt-scroll-fade.mt-scroll-hide{opacity:0;visibility:hidden}
+
+    </style>
+    
+     
+			<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+
+
+	<style>
+        
+		#particles-js-1 {
+                  position: absolute;
+                  width: 100%;
+                  height: 100%;
+                  background-color: #140E49;
+                  background-image: url("assets/astrology-astronomy-background-image-956981.jpg");
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  background-position: 50% 50%;
+                }
+
+	</style>
+			
+		
+      <style>
+
+        #page #u20176 {
+          display: none;
+        }
+
+        body .u20176-mt_btn_top {
+          opacity: 0;
+          visibility: hidden;
+          position: fixed;
+          padding: 15px;
+          z-index: 999;
+          display: inline-block;
+          background: rgba(56,56,56, 1);
+          border: 0px solid rgba(56,56,56, 1);
+          outline: none;
+          font-size: 14px;
+          text-decoration: none !important;
+          color: rgb(255,255,255);
+          border-radius: 5px;
+          transition: visibility 1s, opacity 1s;
+          font-family: Raleway, bold;
+          min-width: calc(50px - 30px);
+          height: calc(50px - 30px);
+          line-height: calc(50px - 30px);
+          text-align: center;
+          transition-delay: 0s;
+        }
+
+        body .u20176-mt_btn_top.show_scroll {
+          opacity: 1;
+          visibility: visible;
+        }
+       
+        body .u20176-mt_btn_top .u20176-mt-scrolltop-arrow {
+          display: inline-block;
+          position: relative;
+          text-align: center;
+          color: rgb(255,255,255);
+          margin-left: .75em;
+          border-radius: 5px;
+          vertical-align: middle;
+        }
+
+        body .u20176-mt_btn_top .u20176-mt-scrolltop-arrow:after {
+          content: '';
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          border-top: 2px solid rgb(255,255,255);
+          border-right: 2px solid rgb(255,255,255);
+          -moz-transform: rotate(-45deg);
+          -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+          vertical-align: middle;
+        }
+
+        body .u20176-mt_btn_top.arrow-only .u20176-mt-scrolltop-arrow {
+          margin-left: 0;
+          margin-top: 1px;
+        }
+
+        body .u20176-mt_btn_top:hover {
+          background: rgba(126,124,124, 1);
+          border-color: rgba(126,124,124, 1);
+          color: rgb(255,255,255);
+        }
+
+        body .u20176-mt_btn_top:hover .u20176-mt-scrolltop-arrow:after {
+          border-top: 2px solid rgb(255,255,255);
+          border-right: 2px solid rgb(255,255,255);
+        }
+
+        button::-moz-focus-inner {
+          border: none;
+        }
+
+      </style>
+    
+ </head>
  <body>
 
   <!--HTML Widget code-->
-  
-	
-		<style>
-			#video_background {
-				position: fixed;
-				bottom: 0px;
-				right: 0px;
-				min-width: 100%;
-				min-height: 100%;
-				width: auto;
-				height: auto;
-				z-index: -1000;
-				overflow: hidden;
-			}
+   
 
-			#video_pattern {
-				background-image: url( );
-				background-repeat: repeat;
-				position: fixed;
-				opacity: 0.7;
-				left: 0px;
-				top: 0px;
-				width: 100%;
-				height: 100%;
-				z-index: -999;
-			}
-		</style>
+<!------------------------------------------------------------------------------
+================================================================================
+--------------------------------------------------------------------------------
 
-		<video id="video_background" preload="auto" autoplay="true" loop muted> 
-			<source src="assets/sky01.mp4" type="video/mp4">
-			<source src=" " type="video/webm">  
-			This browser does not support video
-		</video>
 
-		<div id="video_pattern" ></div>
-	
+
+
+ █████╗     ███╗   ███╗    ███████╗        
+██╔══██╗    ████╗ ████║    ██╔════╝        
+███████║    ██╔████╔██║    █████╗          
+██╔══██║    ██║╚██╔╝██║    ██╔══╝          
+██║  ██║    ██║ ╚═╝ ██║    ███████╗        
+╚═╝  ╚═╝    ╚═╝     ╚═╝    ╚══════╝       
+
+
+This website uses widget(s) from AdobeMuseExpert.com // This widgets are fee
+to use and available for download at: http://adobemuseexpert.com/
+
+
+
+
+--------------------------------------------------------------------------------
+================================================================================
+------------------------------------------------------------------------------->  
+   			
+                
+            
+		
   
   <div class="breakpoint active" id="bp_infinity" data-min-width="961"><!-- responsive breakpoint node -->
-   <div class="clearfix" id="page"><!-- group -->
-    <div class="clearfix grpelem" id="phome"><!-- column -->
-     <a class="anchor_item colelem shared_content" id="home" data-content-guid="home_content"></a>
-     <div class="museBGSize colelem" id="u2832"><!-- content --></div>
-     <div class="clearfix colelem" id="pu3345-3"><!-- group -->
-      <div class="browser_width grpelem shared_content" id="u3345-3-bw" data-content-guid="u3345-3-bw_content">
-       <div class="clearfix" id="u3345-3"><!-- content -->
-        <p>&nbsp;</p>
+   <div class="clearfix borderbox" id="page"><!-- group -->
+    <div class="clearfix grpelem" id="pu20256"><!-- column -->
+     <div class="browser_width colelem" id="u20256-bw">
+      <div class="menu size_browser_width shared_content" id="u20256" data-content-guid="u20256_content"><!-- custom html -->
+       
+      
+    
+      </div>
+     </div>
+     <div class="clearfix colelem" id="pu20372"><!-- group -->
+      <div class="browser_width grpelem" id="u20372-bw">
+       <div class="size_browser_width shared_content" id="u20372" data-content-guid="u20372_content"><!-- custom html -->
+        
+      
+    
        </div>
       </div>
-      <div class="clearfix grpelem shared_content" id="u1635-4" data-content-guid="u1635-4_content"><!-- content -->
-       <p>Our multi-lingual and cross-cultural team provides the spectrum of learning services from needs analysis, learning strategies and technologies to interactive content development. We foster learning innovations in areas such as social networking, collaboration technology platforms, and virtual reality.</p>
+      <a class="anchor_item grpelem shared_content" id="home" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="home_content"></a>
+     </div>
+     <div class="clearfix colelem" id="pu20539"><!-- group -->
+      <div class="browser_width grpelem shared_content" id="u20539-bw" data-content-guid="u20539-bw_content">
+       <div class="size_browser_width" id="u20539"><!-- custom html -->
+        
+            <div id="particles-js-1"></div> 
+
+            <script>
+
+                particlesJS("particles-js-1", {
+                  "particles": {
+                    "number": {
+                      "value": 80,
+                      "density": {
+                        "enable": true,
+                        "value_area": 800
+                      }
+                    },
+                    "color": {
+                      "value": "#FFFFFF"
+                    },
+                    "shape": {
+                      "type": "circle",
+                      "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                      },
+                      "polygon": {
+                        "nb_sides": 3
+                      },
+                      "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                      }
+                    }, 
+                    "opacity": {
+                      "value": 0.5,
+                      "random": false,
+                      "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                      }
+                    },
+                    "size": {
+                      "value": 1,
+                      "random": true,
+                      "anim": {
+                        "enable": false,
+                        "speed": 90,
+                        "size_min": 0.1,
+                        "sync": false
+                      }
+                    },
+                    "line_linked": {
+                      "enable": true,
+                      "distance": 150,
+                      "color": "#FFFFFF",
+                      "opacity": 0.4,
+                      "width": 1
+                    },
+                    "move": {
+                      "enable": true,
+                      "speed": 6,
+                      "direction": "none",
+                      "random": false,
+                      "straight": false,
+                      "out_mode": "out",
+                      "bounce": false,
+                      "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                      }
+                    }
+                  },
+                  "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                      "onhover": {
+                        "enable": true,
+                        "mode": "grab"
+                      },
+                      "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                      },
+                      "resize": true
+                    },
+                    "modes": {
+                      "grab": {
+                        "distance": 140,
+                        "line_linked": {
+                          "opacity": 1
+                        }
+                      },
+                      "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                      },
+                      "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                      },
+                      "push": {
+                        "particles_nb": 4
+                      },
+                      "remove": {
+                        "particles_nb": 2
+                      }
+                    }
+                  },
+                  "retina_detect": true
+                });
+
+            </script>
+
+		
+       </div>
       </div>
-      <div class="grpelem shared_content" id="u1975" data-content-guid="u1975_content"><!-- simple frame --></div>
-      <div class="grpelem shared_content" id="u1994" data-content-guid="u1994_content"><!-- simple frame --></div>
-      <div class="clearfix grpelem shared_content" id="u1979-4" data-content-guid="u1979-4_content"><!-- content -->
+      <div class="museBGSize grpelem shared_content" id="u2832" data-sizePolicy="fluidWidthHeight" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pu20539" data-content-guid="u2832_content"><!-- content -->
+       <div class="fluid_height_spacer"></div>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="u12151"><!-- column -->
+      <a class="anchor_item colelem shared_content" id="about" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="about_content"></a>
+      <div class="colelem shared_content" id="u1975" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-content-guid="u1975_content"><!-- simple frame --></div>
+      <div class="clearfix colelem shared_content" id="u1979-4" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-content-guid="u1979-4_content"><!-- content -->
        <p>01 about</p>
       </div>
-      <div class="clearfix grpelem shared_content" id="u2000-4" data-content-guid="u2000-4_content"><!-- content -->
+      <div class="clearfix colelem shared_content" id="u1635-4" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-content-guid="u1635-4_content"><!-- content -->
+       <p>Our multi-lingual and cross-cultural team provides the spectrum of learning services from needs analysis, learning strategies and technologies to interactive content development. We foster learning innovations in areas such as social networking, collaboration technology platforms, and virtual reality.</p>
+      </div>
+      <a class="anchor_item colelem shared_content" id="portfolio" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="portfolio_content"></a>
+      <div class="clearfix colelem" id="pu1994"><!-- group -->
+       <div class="grpelem" id="u1994" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter"><!-- simple frame --></div>
+       <div class="size_fluid_width grpelem shared_content" id="u20176" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-content-guid="u20176_content"><!-- custom html -->
+        
+       
+    
+       </div>
+      </div>
+      <div class="clearfix colelem shared_content" id="u2000-4" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-content-guid="u2000-4_content"><!-- content -->
        <p>02 portfolio</p>
       </div>
-      <div class="museBGSize grpelem" id="u2009"><!-- content --></div>
-      <div class="museBGSize grpelem" id="u2942"><!-- content --></div>
-      <div class="museBGSize grpelem" id="u2027"><!-- content --></div>
-      <div class="museBGSize grpelem" id="u2047"><!-- content --></div>
-      <a class="anchor_item grpelem shared_content" id="portfolio" data-content-guid="portfolio_content"></a>
-      <a class="anchor_item grpelem shared_content" id="about" data-content-guid="about_content"></a>
-      <div class="transition grpelem shared_content" id="u3367" data-content-guid="u3367_content"><!-- content --></div>
-      <a class="nonblock nontext transition grpelem shared_content" id="u3397" href="carington-house.html" data-content-guid="u3397_content"><!-- content --></a>
-      <a class="nonblock nontext transition grpelem shared_content" id="u3820" href="carington-house.html" data-content-guid="u3820_content"><!-- content --></a>
-      <a class="nonblock nontext transition grpelem shared_content" id="u3425" href="carington-house.html" data-content-guid="u3425_content"><!-- content --></a>
+      <div class="clearfix colelem" id="pu17738"><!-- group -->
+       <div class="grpelem shared_content" id="u17738" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-content-guid="u17738_content"><!-- simple frame --></div>
+       <div class="museBGSize grpelem shared_content" id="u2009" data-content-guid="u2009_content"><!-- content -->
+        <div class="fluid_height_spacer"></div>
+       </div>
+       <div class="museBGSize grpelem shared_content" id="u2942" data-content-guid="u2942_content"><!-- content -->
+        <div class="fluid_height_spacer"></div>
+       </div>
+       <div class="museBGSize grpelem shared_content" id="u2027" data-content-guid="u2027_content"><!-- content -->
+        <div class="fluid_height_spacer"></div>
+       </div>
+       <a class="nonblock nontext museBGSize grpelem shared_content" id="u2047" href="carington-house.html" data-content-guid="u2047_content"><!-- content --><div class="fluid_height_spacer"></div></a>
+      </div>
+      <div class="clearfix colelem" id="pu17057"><!-- group -->
+       <a class="nonblock nontext museBGSize grpelem shared_content" id="u17057" href="atlantic-salmon-cycle.html" data-content-guid="u17057_content"><!-- content --><div class="fluid_height_spacer"></div></a>
+       <div class="museBGSize grpelem shared_content" id="u17071" data-content-guid="u17071_content"><!-- content -->
+        <div class="fluid_height_spacer"></div>
+       </div>
+       <div class="museBGSize grpelem shared_content" id="u17085" data-content-guid="u17085_content"><!-- content -->
+        <div class="fluid_height_spacer"></div>
+       </div>
+       <div class="museBGSize grpelem shared_content" id="u17099" data-content-guid="u17099_content"><!-- content -->
+        <div class="fluid_height_spacer"></div>
+       </div>
+      </div>
+      <a class="anchor_item colelem shared_content" id="clients" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="clients_content"></a>
+      <div class="colelem" id="u17141" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter"><!-- simple frame --></div>
+      <div class="clearfix colelem shared_content" id="u17129-4" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-content-guid="u17129-4_content"><!-- content -->
+       <p>03 clients and partners</p>
+      </div>
+      <div class="PamphletWidget clearfix allow_click_through colelem" id="pamphletu17151" data-visibility="changed" style="visibility:hidden" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter"><!-- none box -->
+       <div class="position_content" id="pamphletu17151_position_content">
+        <div class="clearfix colelem" id="pu17160"><!-- group -->
+         <div class="popup_anchor allow_click_through grpelem" data-col-pos="1" id="u17160popup">
+          <div class="ContainerGroup clearfix" data-col-pos="1" id="u17160"><!-- stack box -->
+           <div class="Container museBGSize grpelem" data-col-pos="0" id="u17161"><!-- simple frame --></div>
+           <div class="Container invi museBGSize grpelem" data-col-pos="1" id="u17163"><!-- simple frame --></div>
+           <div class="Container invi museBGSize grpelem" data-col-pos="2" id="u17162"><!-- simple frame --></div>
+           <div class="Container invi museBGSize grpelem" data-col-pos="3" id="u17280"><!-- simple frame --></div>
+           <div class="Container invi museBGSize grpelem" data-col-pos="4" id="u17361"><!-- simple frame --></div>
+           <div class="Container invi museBGSize grpelem" data-col-pos="5" id="u17388"><!-- simple frame --></div>
+          </div>
+         </div>
+         <div class="popup_anchor allow_click_through grpelem" data-col-pos="2" id="u17165popup">
+          <div class="PamphletPrevButton PamphletLightboxPart popup_element clearfix" data-col-pos="2" id="u17165"><!-- group -->
+           <div class="clearfix grpelem shared_content" id="u17166-4" data-content-guid="u17166-4_content"><!-- content -->
+            <p>&lt;</p>
+           </div>
+          </div>
+         </div>
+         <div class="popup_anchor allow_click_through grpelem" data-col-pos="3" id="u17158popup">
+          <div class="PamphletNextButton PamphletLightboxPart popup_element clearfix" data-col-pos="3" id="u17158"><!-- group -->
+           <div class="clearfix grpelem shared_content" id="u17159-4" data-content-guid="u17159-4_content"><!-- content -->
+            <p>&gt;</p>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="ThumbGroup clearfix colelem" data-col-pos="0" id="u17154"><!-- none box -->
+         <div class="popup_anchor allow_click_through grpelem" data-col-pos="0" id="u17157popup">
+          <div class="Thumb popup_element rounded-corners" data-col-pos="0" id="u17157" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- simple frame --></div>
+         </div>
+         <div class="popup_anchor allow_click_through grpelem" data-col-pos="1" id="u17155popup">
+          <div class="Thumb popup_element rounded-corners" data-col-pos="1" id="u17155" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- simple frame --></div>
+         </div>
+         <div class="popup_anchor allow_click_through grpelem" data-col-pos="2" id="u17156popup">
+          <div class="Thumb popup_element rounded-corners" data-col-pos="2" id="u17156" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- simple frame --></div>
+         </div>
+         <div class="popup_anchor allow_click_through grpelem" data-col-pos="3" id="u17274popup">
+          <div class="Thumb popup_element rounded-corners" data-col-pos="3" id="u17274" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- simple frame --></div>
+         </div>
+         <div class="popup_anchor allow_click_through grpelem" data-col-pos="4" id="u17355popup">
+          <div class="Thumb popup_element rounded-corners" data-col-pos="4" id="u17355" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- simple frame --></div>
+         </div>
+         <div class="popup_anchor allow_click_through grpelem" data-col-pos="5" id="u17382popup">
+          <div class="Thumb popup_element rounded-corners" data-col-pos="5" id="u17382" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- simple frame --></div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <a class="anchor_item colelem shared_content" id="contact" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="contact_content"></a>
+      <div class="colelem shared_content" id="u17749" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-content-guid="u17749_content"><!-- simple frame --></div>
+      <div class="clearfix colelem shared_content" id="u17744-4" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-content-guid="u17744-4_content"><!-- content -->
+       <p>04 contact</p>
+      </div>
+      <form class="form-grp clearfix colelem" id="widgetu17824" method="post" enctype="multipart/form-data" action="scripts/form-u17824.php" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
+       <div class="position_content" id="widgetu17824_position_content">
+        <div class="clearfix colelem" id="pwidgetu17829"><!-- group -->
+         <div class="fld-grp clearfix grpelem" id="widgetu17829" data-required="true" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
+          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u17832-4"><!-- content --><div id="u17832-3"><input class="wrapped-input shared_content" type="text" spellcheck="false" id="widgetu17829_input" name="custom_U17829" tabindex="1" data-content-guid="widgetu17829_input_content"/><label class="wrapped-input fld-prompt" id="widgetu17829_prompt" for="widgetu17829_input"><span class="actAsPara shared_content" data-content-guid="widgetu17829_prompt_0_content">First Name</span></label></div></span>
+         </div>
+         <div class="fld-grp clearfix grpelem" id="widgetu17918" data-required="true" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
+          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u17921-4"><!-- content --><div id="u17921-3"><input class="wrapped-input shared_content" type="text" id="widgetu17918_input" name="custom_U17918" tabindex="2" data-content-guid="widgetu17918_input_content"/><label class="wrapped-input fld-prompt" id="widgetu17918_prompt" for="widgetu17918_input"><span class="actAsPara shared_content" data-content-guid="widgetu17918_prompt_0_content">Last Name</span></label></div></span>
+         </div>
+        </div>
+        <div class="clearfix colelem" id="pwidgetu17833"><!-- group -->
+         <div class="fld-grp clearfix grpelem" id="widgetu17833" data-required="true" data-type="email" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
+          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u17836-4"><!-- content --><div id="u17836-3"><input class="wrapped-input shared_content" type="email" spellcheck="false" id="widgetu17833_input" name="Email" tabindex="3" data-content-guid="widgetu17833_input_content"/><label class="wrapped-input fld-prompt" id="widgetu17833_prompt" for="widgetu17833_input"><span class="actAsPara shared_content" data-content-guid="widgetu17833_prompt_0_content">Enter Email</span></label></div></span>
+         </div>
+         <div class="fld-grp clearfix grpelem" id="widgetu17892" data-required="true" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
+          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u17895-4"><!-- content --><div id="u17895-3"><input class="wrapped-input shared_content" type="tel" spellcheck="false" id="widgetu17892_input" name="custom_U17892" tabindex="4" data-content-guid="widgetu17892_input_content"/><label class="wrapped-input fld-prompt" id="widgetu17892_prompt" for="widgetu17892_input"><span class="actAsPara shared_content" data-content-guid="widgetu17892_prompt_0_content">Phone</span></label></div></span>
+         </div>
+        </div>
+        <div class="fld-grp clearfix colelem" id="widgetu17825" data-required="false" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
+         <span class="fld-textarea actAsDiv clearfix grpelem" id="u17827-4"><!-- content --><div id="u17827-3"><textarea class="wrapped-input shared_content" id="widgetu17825_input" name="custom_U17825" tabindex="5" data-content-guid="widgetu17825_input_content"></textarea><label class="wrapped-input fld-prompt" id="widgetu17825_prompt" for="widgetu17825_input"><span class="actAsPara shared_content" data-content-guid="widgetu17825_prompt_0_content">Type your message here...</span></label></div></span>
+        </div>
+        <div class="clearfix colelem" id="pu17837-4"><!-- group -->
+         <div class="clearfix grpelem" id="u17837-4"><!-- content -->
+          <p class="shared_content" data-content-guid="u17837-4_0_content">Submitting Form...</p>
+         </div>
+         <div class="clearfix grpelem" id="u17839-4"><!-- content -->
+          <p class="shared_content" data-content-guid="u17839-4_0_content">The server encountered an error.</p>
+         </div>
+         <div class="clearfix grpelem" id="u17838-4"><!-- content -->
+          <p class="shared_content" data-content-guid="u17838-4_0_content">Thanks! You'll hear from us soon!</p>
+         </div>
+         <button class="submit-btn NoWrap rounded-corners clearfix grpelem" id="u17840-4" type="submit" value="Submit" tabindex="6"><!-- content -->
+          <div style="margin-top:-18px;height:18px;" class="shared_content" data-content-guid="u17840-4_0_content">
+           <p>Submit</p>
+          </div>
+         </button>
+        </div>
+       </div>
+      </form>
      </div>
     </div>
-    <div class="clearfix grpelem" id="pu185"><!-- group -->
-     <div class="browser_width shared_content" id="u185-bw" data-content-guid="u185-bw_content">
-      <div class="size_browser_width" id="u185"><!-- custom html -->
-      </div>
-     </div>
-     <div id="u3459" class="shared_content" data-content-guid="u3459_content"><!-- simple frame --></div>
-     <div id="u3469" class="shared_content" data-content-guid="u3469_content"><!-- simple frame --></div>
-     <div class="browser_width shared_content" id="u3475-bw" data-content-guid="u3475-bw_content">
-      <div id="u3475"><!-- simple frame --></div>
-     </div>
-     <div class="browser_width shared_content" id="u2145-bw" data-content-guid="u2145-bw_content">
-      <div class="transition" id="u2145"><!-- simple frame --></div>
+    <div class="clearfix grpelem" id="pu20475"><!-- group -->
+     <div class="browser_width shared_content" id="u20475-bw" data-content-guid="u20475-bw_content">
+      <div class="menu rgba-background" id="u20475"><!-- simple frame --></div>
      </div>
      <nav class="MenuBar clearfix" id="menuu2146"><!-- horizontal box -->
       <div class="MenuItemContainer clearfix grpelem" id="u2168"><!-- vertical box -->
@@ -131,32 +492,99 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox transition clearfix colelem" id="u2164" href="index.html#portfolio"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u2165-4"><!-- content --><p class="shared_content" data-content-guid="u2165-4_0_content">Portfolio</p></div></a>
       </div>
       <div class="MenuItemContainer clearfix grpelem" id="u2147"><!-- vertical box -->
-       <div class="MenuItem MenuItemWithSubMenu borderbox transition clearfix colelem" id="u2150"><!-- horizontal box -->
-        <div class="MenuItemLabel NoWrap clearfix grpelem" id="u2152-4"><!-- content -->
-         <p class="shared_content" data-content-guid="u2152-4_0_content">Clients</p>
-        </div>
-       </div>
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox transition clearfix colelem" id="u2150" href="index.html#clients"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u2152-4"><!-- content --><p class="shared_content" data-content-guid="u2152-4_0_content">Clients</p></div></a>
       </div>
       <div class="MenuItemContainer clearfix grpelem" id="u2154"><!-- vertical box -->
-       <div class="MenuItem MenuItemWithSubMenu borderbox transition clearfix colelem" id="u2157"><!-- horizontal box -->
-        <div class="MenuItemLabel NoWrap clearfix grpelem" id="u2160-4"><!-- content -->
-         <p class="shared_content" data-content-guid="u2160-4_0_content">Contact</p>
-        </div>
-       </div>
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox transition clearfix colelem" id="u2157" href="index.html#contact"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u2160-4"><!-- content --><p class="shared_content" data-content-guid="u2160-4_0_content">Contact</p></div></a>
       </div>
      </nav>
      <div class="clearfix shared_content" id="u2182-4" data-content-guid="u2182-4_content"><!-- content -->
       <p>Stellar Futures</p>
      </div>
     </div>
-    <div class="verticalspacer" data-offset-top="2260" data-content-above-spacer="2260" data-content-below-spacer="84"></div>
+    <div class="verticalspacer" data-offset-top="3390" data-content-above-spacer="3390" data-content-below-spacer="88" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="browser_width grpelem shared_content" id="u17959-bw" data-content-guid="u17959-bw_content">
+     <div id="u17959"><!-- group -->
+      <div class="clearfix" id="u17959_align_to_page">
+       <div class="clearfix grpelem" id="u17963-8" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter"><!-- content -->
+        <p>Stellar Futures</p>
+        <p>Tel: 506.206.7070</p>
+        <p>57 Carleton St., Suite 300, Fredericton, NB E3B 3T2</p>
+       </div>
+      </div>
+     </div>
+    </div>
    </div>
   </div>
   <div class="breakpoint" id="bp_960" data-max-width="960"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-    <div class="clearfix grpelem" id="ppu2145"><!-- column -->
-     <div class="clearfix colelem" id="pu2145"><!-- group -->
-      <span class="browser_width grpelem placeholder" data-placeholder-for="u2145-bw_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem" id="pu12151"><!-- group -->
+     <div class="browser_width" id="u12151-bw">
+      <div class="temp_no_id" data-orig-id="u12151"><!-- simple frame --></div>
+     </div>
+     <div id="u2832-wrapper">
+      <span class="museBGSize placeholder" data-placeholder-for="u2832_content"><!-- placeholder node --></span>
+     </div>
+     <span class="browser_width placeholder" data-placeholder-for="u20475-bw_content"><!-- placeholder node --></span>
+     <span class="museBGSize placeholder" data-placeholder-for="u2009_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext museBGSize placeholder" data-placeholder-for="u17057_content"><!-- placeholder node --></span>
+     <span class="clearfix placeholder" data-placeholder-for="u2182-4_content"><!-- placeholder node --></span>
+    </div>
+    <div class="clearfix grpelem" id="ppu20539"><!-- column -->
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu20539"><!-- group -->
+      <span class="browser_width grpelem placeholder" data-placeholder-for="u20539-bw_content"><!-- placeholder node --></span>
+      <div class="PamphletWidget clearfix allow_click_through grpelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-orig-id="pamphletu17151"><!-- none box -->
+       <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="2" data-orig-id="u17165popup">
+        <div class="PamphletPrevButton PamphletLightboxPart popup_element clearfix temp_no_id" data-col-pos="2" data-orig-id="u17165"><!-- group -->
+         <span class="clearfix grpelem placeholder" data-placeholder-for="u17166-4_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+       <div class="clearfix grpelem temp_no_id" data-orig-id="pu17160"><!-- column -->
+        <div class="popup_anchor allow_click_through colelem temp_no_id" data-col-pos="1" data-orig-id="u17160popup">
+         <div class="ContainerGroup clearfix temp_no_id" data-col-pos="1" data-orig-id="u17160"><!-- stack box -->
+          <div class="Container museBGSize grpelem temp_no_id" data-col-pos="0" data-orig-id="u17161"><!-- simple frame --></div>
+          <div class="Container invi museBGSize grpelem temp_no_id" data-col-pos="1" data-orig-id="u17163"><!-- simple frame --></div>
+          <div class="Container invi museBGSize grpelem temp_no_id" data-col-pos="2" data-orig-id="u17162"><!-- simple frame --></div>
+          <div class="Container invi museBGSize grpelem temp_no_id" data-col-pos="3" data-orig-id="u17280"><!-- simple frame --></div>
+          <div class="Container invi museBGSize grpelem temp_no_id" data-col-pos="4" data-orig-id="u17361"><!-- simple frame --></div>
+          <div class="Container invi museBGSize grpelem temp_no_id" data-col-pos="5" data-orig-id="u17388"><!-- simple frame --></div>
+         </div>
+        </div>
+        <div class="ThumbGroup clearfix colelem temp_no_id" data-col-pos="0" data-orig-id="u17154"><!-- none box -->
+         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="2" data-orig-id="u17156popup">
+          <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="2" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u17156"><!-- simple frame --></div>
+         </div>
+         <div class="clearfix grpelem" id="pu17157"><!-- group -->
+          <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="0" data-orig-id="u17157popup">
+           <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="0" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u17157"><!-- simple frame --></div>
+          </div>
+          <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="3" data-orig-id="u17274popup">
+           <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="3" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u17274"><!-- simple frame --></div>
+          </div>
+         </div>
+         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="4" data-orig-id="u17355popup">
+          <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="4" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u17355"><!-- simple frame --></div>
+         </div>
+         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="1" data-orig-id="u17155popup">
+          <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="1" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u17155"><!-- simple frame --></div>
+         </div>
+         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="5" data-orig-id="u17382popup">
+          <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="5" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u17382"><!-- simple frame --></div>
+         </div>
+        </div>
+       </div>
+       <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="3" data-orig-id="u17158popup">
+        <div class="PamphletNextButton PamphletLightboxPart popup_element clearfix temp_no_id" data-col-pos="3" data-orig-id="u17158"><!-- group -->
+         <span class="clearfix grpelem placeholder" data-placeholder-for="u17159-4_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
+      <span class="menu size_fixed grpelem placeholder" data-placeholder-for="u20256_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u1635-4_content"><!-- placeholder node --></span>
+      <span class="grpelem placeholder" data-placeholder-for="u1975_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u1979-4_content"><!-- placeholder node --></span>
+      <span class="anchor_item grpelem placeholder" data-placeholder-for="about_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u20372_content"><!-- placeholder node --></span>
       <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu2146"><!-- horizontal box -->
        <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u2168"><!-- vertical box -->
         <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox transition clearfix colelem temp_no_id" href="index.html#home" data-orig-id="u2171"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u2174-4"><!-- content --><span class="placeholder" data-placeholder-for="u2174-4_0_content"><!-- placeholder node --></span></div></a>
@@ -168,63 +596,82 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox transition clearfix colelem temp_no_id" href="index.html#portfolio" data-orig-id="u2164"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u2165-4"><!-- content --><span class="placeholder" data-placeholder-for="u2165-4_0_content"><!-- placeholder node --></span></div></a>
        </div>
        <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u2147"><!-- vertical box -->
-        <div class="MenuItem MenuItemWithSubMenu borderbox transition clearfix colelem temp_no_id" data-orig-id="u2150"><!-- horizontal box -->
-         <div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u2152-4"><!-- content -->
-          <span class="placeholder" data-placeholder-for="u2152-4_0_content"><!-- placeholder node --></span>
-         </div>
-        </div>
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox transition clearfix colelem temp_no_id" href="index.html#clients" data-orig-id="u2150"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u2152-4"><!-- content --><span class="placeholder" data-placeholder-for="u2152-4_0_content"><!-- placeholder node --></span></div></a>
        </div>
        <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u2154"><!-- vertical box -->
-        <div class="MenuItem MenuItemWithSubMenu borderbox transition clearfix colelem temp_no_id" data-orig-id="u2157"><!-- horizontal box -->
-         <div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u2160-4"><!-- content -->
-          <span class="placeholder" data-placeholder-for="u2160-4_0_content"><!-- placeholder node --></span>
-         </div>
-        </div>
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox transition clearfix colelem temp_no_id" href="index.html#contact" data-orig-id="u2157"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u2160-4"><!-- content --><span class="placeholder" data-placeholder-for="u2160-4_0_content"><!-- placeholder node --></span></div></a>
        </div>
       </nav>
       <span class="anchor_item grpelem placeholder" data-placeholder-for="home_content"><!-- placeholder node --></span>
      </div>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu185"><!-- group -->
-      <span class="browser_width grpelem placeholder" data-placeholder-for="u185-bw_content"><!-- placeholder node --></span>
-      <div class="museBGSize grpelem temp_no_id" data-orig-id="u2832"><!-- content -->
-       <div class="fluid_height_spacer"></div>
-      </div>
-     </div>
-     <span class="anchor_item colelem placeholder" data-placeholder-for="about_content"><!-- placeholder node --></span>
-     <span class="colelem placeholder" data-placeholder-for="u1975_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="u1979-4_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="u1635-4_content"><!-- placeholder node --></span>
      <span class="anchor_item colelem placeholder" data-placeholder-for="portfolio_content"><!-- placeholder node --></span>
-     <span class="colelem placeholder" data-placeholder-for="u1994_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="u2000-4_content"><!-- placeholder node --></span>
-     <div class="clearfix colelem" id="pu2009"><!-- group -->
-      <div class="museBGSize grpelem temp_no_id" data-sizePolicy="fluidWidthHeight" data-pintopage="page_fixedLeft" data-orig-id="u2009"><!-- content -->
-       <div class="fluid_height_spacer"></div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu1994"><!-- group -->
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u1994"><!-- group -->
+       <div class="clearfix grpelem temp_no_id" data-orig-id="u17141"><!-- group -->
+        <span class="grpelem placeholder" data-placeholder-for="u17738_content"><!-- placeholder node --></span>
+       </div>
       </div>
-      <div class="museBGSize grpelem temp_no_id" data-sizePolicy="fluidWidthHeight" data-pintopage="page_fixedLeft" data-orig-id="u2942"><!-- content -->
-       <div class="fluid_height_spacer"></div>
+      <span class="grpelem placeholder" data-placeholder-for="u17749_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem" id="pu2000-4"><!-- group -->
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u2000-4_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u17129-4_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u17744-4_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem" id="ppu2047"><!-- group -->
+      <div class="clearfix grpelem" id="pu2047"><!-- group -->
+       <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u2047_content"><!-- placeholder node --></span>
+       <span class="museBGSize grpelem placeholder" data-placeholder-for="u17085_content"><!-- placeholder node --></span>
       </div>
-      <div class="museBGSize grpelem temp_no_id" data-sizePolicy="fluidWidthHeight" data-pintopage="page_fixedCenter" data-orig-id="u2027"><!-- content -->
-       <div class="fluid_height_spacer"></div>
-      </div>
-      <div class="museBGSize grpelem temp_no_id" data-sizePolicy="fluidWidthHeight" data-pintopage="page_fixedRight" data-orig-id="u2047"><!-- content -->
-       <div class="fluid_height_spacer"></div>
-      </div>
-      <span class="transition grpelem placeholder" data-placeholder-for="u3367_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext transition grpelem placeholder" data-placeholder-for="u3397_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext transition grpelem placeholder" data-placeholder-for="u3820_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext transition grpelem placeholder" data-placeholder-for="u3425_content"><!-- placeholder node --></span>
-      <a class="nonblock nontext transition grpelem" id="u3439" href="carington-house.html" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --></a>
+      <span class="museBGSize grpelem placeholder" data-placeholder-for="u2027_content"><!-- placeholder node --></span>
+      <span class="museBGSize grpelem placeholder" data-placeholder-for="u17071_content"><!-- placeholder node --></span>
+      <span class="museBGSize grpelem placeholder" data-placeholder-for="u17099_content"><!-- placeholder node --></span>
+     </div>
+     <span class="museBGSize colelem placeholder" data-placeholder-for="u2942_content"><!-- placeholder node --></span>
+     <span class="anchor_item colelem placeholder" data-placeholder-for="clients_content"><!-- placeholder node --></span>
+     <span class="anchor_item colelem placeholder" data-placeholder-for="contact_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem" id="pu17959"><!-- group -->
+      <span class="browser_width grpelem placeholder" data-placeholder-for="u17959-bw_content"><!-- placeholder node --></span>
+      <form class="form-grp clearfix grpelem temp_no_id" method="post" enctype="multipart/form-data" action="scripts/form-u17824.php" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu17824"><!-- none box -->
+       <div class="position_content temp_no_id" data-orig-id="widgetu17824_position_content">
+        <div class="clearfix colelem temp_no_id" data-orig-id="pwidgetu17829"><!-- group -->
+         <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu17829"><!-- none box -->
+          <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u17832-4"><!-- content --><div class="temp_no_id" data-orig-id="u17832-3"><span class="wrapped-input placeholder" data-placeholder-for="widgetu17829_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu17829_input" data-orig-id="widgetu17829_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu17829_prompt_0_content"><!-- placeholder node --></span></label></div></span>
+         </div>
+         <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu17918"><!-- none box -->
+          <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u17921-4"><!-- content --><div class="temp_no_id" data-orig-id="u17921-3"><span class="wrapped-input placeholder" data-placeholder-for="widgetu17918_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu17918_input" data-orig-id="widgetu17918_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu17918_prompt_0_content"><!-- placeholder node --></span></label></div></span>
+         </div>
+        </div>
+        <div class="clearfix colelem temp_no_id" data-orig-id="pwidgetu17833"><!-- group -->
+         <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-type="email" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu17833"><!-- none box -->
+          <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u17836-4"><!-- content --><div class="temp_no_id" data-orig-id="u17836-3"><span class="wrapped-input placeholder" data-placeholder-for="widgetu17833_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu17833_input" data-orig-id="widgetu17833_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu17833_prompt_0_content"><!-- placeholder node --></span></label></div></span>
+         </div>
+         <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu17892"><!-- none box -->
+          <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u17895-4"><!-- content --><div class="temp_no_id" data-orig-id="u17895-3"><span class="wrapped-input placeholder" data-placeholder-for="widgetu17892_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu17892_input" data-orig-id="widgetu17892_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu17892_prompt_0_content"><!-- placeholder node --></span></label></div></span>
+         </div>
+        </div>
+        <div class="fld-grp clearfix colelem temp_no_id" data-required="false" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu17825"><!-- none box -->
+         <span class="fld-textarea actAsDiv clearfix grpelem temp_no_id" data-orig-id="u17827-4"><!-- content --><div class="temp_no_id" data-orig-id="u17827-3"><span class="wrapped-input placeholder" data-placeholder-for="widgetu17825_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu17825_input" data-orig-id="widgetu17825_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu17825_prompt_0_content"><!-- placeholder node --></span></label></div></span>
+        </div>
+        <div class="clearfix colelem temp_no_id" data-orig-id="pu17837-4"><!-- group -->
+         <div class="clearfix grpelem temp_no_id" data-orig-id="u17837-4"><!-- content -->
+          <span class="placeholder" data-placeholder-for="u17837-4_0_content"><!-- placeholder node --></span>
+         </div>
+         <div class="clearfix grpelem temp_no_id" data-orig-id="u17839-4"><!-- content -->
+          <span class="placeholder" data-placeholder-for="u17839-4_0_content"><!-- placeholder node --></span>
+         </div>
+         <div class="clearfix grpelem temp_no_id" data-orig-id="u17838-4"><!-- content -->
+          <span class="placeholder" data-placeholder-for="u17838-4_0_content"><!-- placeholder node --></span>
+         </div>
+         <button class="submit-btn NoWrap rounded-corners clearfix grpelem temp_no_id" type="submit" value="Submit" tabindex="12" data-orig-id="u17840-4"><!-- content -->
+          <span class="placeholder" data-placeholder-for="u17840-4_0_content"><!-- placeholder node --></span>
+         </button>
+        </div>
+       </div>
+      </form>
      </div>
     </div>
-    <div class="clearfix grpelem" id="pu3459"><!-- group -->
-     <span class="placeholder" data-placeholder-for="u3459_content"><!-- placeholder node --></span>
-     <span class="placeholder" data-placeholder-for="u3469_content"><!-- placeholder node --></span>
-     <span class="browser_width placeholder" data-placeholder-for="u3475-bw_content"><!-- placeholder node --></span>
-     <span class="browser_width placeholder" data-placeholder-for="u3345-3-bw_content"><!-- placeholder node --></span>
-     <span class="clearfix placeholder" data-placeholder-for="u2182-4_content"><!-- placeholder node --></span>
-    </div>
-    <div class="verticalspacer" data-offset-top="1452" data-content-above-spacer="1963" data-content-below-spacer="533" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u20176_content"><!-- placeholder node --></span>
    </div>
   </div>
   <!-- JS includes -->
@@ -245,15 +692,17 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","jquery.watch","jquery.musemenu","jquery.museresponsive"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musepolyfill.bgsize","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.musemenu","jquery.museresponsive"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
+Muse.Utils.resizeHeight('.popup_anchor.allow_click_through');/* resize height */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.initWidget('#pamphletu17151', ['#bp_infinity', '#bp_960'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:10000,transitionStyle:'horizontal',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:true,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); });/* #pamphletu17151 */
+Muse.Utils.initWidget('#widgetu17824', ['#bp_infinity', '#bp_960'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu17824 */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_960'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-Muse.Utils.fullPage('#page');/* 100% height page */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
@@ -263,10 +712,144 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
   <script src="scripts/require.js?crc=7928878" type="text/javascript" async data-main="scripts/museconfig.js?crc=310584261" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
   
   <!--HTML Widget code-->
-   
+  
     <script>
-        console.log("Video Backgrounds - Version 1.1 - MuseThemes.com");
+      console.log("Scroll Reveal (1.1) - MuseThemes");
+      /*!
+      *
+      * Show and Hide page elements on scroll
+      *
+      */
     </script>
 
+    
+
+    <script>
+      "use strict";$(function(){var s=$(".menu");var l="90";var o="mt-scroll-slide-top";var a="mt-show-down";s.addClass(o);if(a==="mt-show-down"){s.addClass("mt-scroll-hide");$(window).scroll(function(){var o=$(window).scrollTop();if(o>l){s.removeClass("mt-scroll-hide").addClass("mt-scroll-show")}else{s.removeClass("mt-scroll-show").addClass("mt-scroll-hide")}})}else{s.css({opacity:"1",visibility:"visible"});$(window).scroll(function(){var o=$(window).scrollTop();if(o>l){s.removeClass("mt-scroll-show").addClass("mt-scroll-hide").css("opacity","0")}else{s.removeClass("mt-scroll-hide").addClass("mt-scroll-show").css("opacity","1")}})}});
+    </script>
+    
+    <script>
+      console.log("Scroll Reveal (1.1) - MuseThemes");
+      /*!
+      *
+      * Show and Hide page elements on scroll
+      *
+      */
+    </script>
+
+    
+
+    <script>
+      "use strict";$(function(){var s=$(".style1");var l="75";var o="mt-scroll-fade";var a="mt-hide-down";s.addClass(o);if(a==="mt-show-down"){s.addClass("mt-scroll-hide");$(window).scroll(function(){var o=$(window).scrollTop();if(o>l){s.removeClass("mt-scroll-hide").addClass("mt-scroll-show")}else{s.removeClass("mt-scroll-show").addClass("mt-scroll-hide")}})}else{s.css({opacity:"1",visibility:"visible"});$(window).scroll(function(){var o=$(window).scrollTop();if(o>l){s.removeClass("mt-scroll-show").addClass("mt-scroll-hide").css("opacity","0")}else{s.removeClass("mt-scroll-hide").addClass("mt-scroll-show").css("opacity","1")}})}});
+    </script>
+    
+
+		
+      <script>
+        console.log("Back To Top Button (1.1) - MuseThemes");
+      </script>
+
+      <script>
+      var checkIfNoteMuse = $('#page').length;
+
+      if (checkIfNoteMuse !== 0) {
+
+        function debounce(func, wait, immediate) {
+          var timeout;
+          return function () {
+            var context = this, args = arguments;
+            var later = function () {
+              timeout = null;
+              if (!immediate) func.apply(context, args);
+            };
+        
+            var callNow = immediate && !timeout;
+            clearTimeout(timeout);
+            timeout = setTimeout(later, wait);
+            if (callNow) func.apply(context, args);
+          };
+        }
+
+        $(document).ready(function(){
+
+          var buttonText = 'Back To Top';
+
+          if (buttonText.length > 0) {
+            $('body').append('<a href="#" class="u20176-mt_btn_top">Back To Top <span class="u20176-mt-scrolltop-arrow"></span></a>');
+          } else {
+            $('body').append('<a href="#" class="u20176-mt_btn_top arrow-only"><span class="u20176-mt-scrolltop-arrow"></span></a>');
+          }
+
+          if ("disable" == "enable") {
+            $( "<style>@media (min-width: 720px) and (max-width: 1280px) {body .u20176-mt_btn_top {display: none !important;}}</style>" ).appendTo( "head" );
+          }
+
+          var scrollSpeed = 400;
+          var $base = $('html, body');
+          var alignment = 'right';
+
+          switch(alignment) {
+            case 'center':
+              var paddingBottom = '20';
+              var widthOfElement = $('.u20176-mt_btn_top').outerWidth();
+              widthOfElement = widthOfElement / 2;
+              $('.u20176-mt_btn_top').css('left', '50%');
+              $('.u20176-mt_btn_top').css('margin-left', '-' + widthOfElement + 'px');
+              $('.u20176-mt_btn_top').css('bottom', paddingBottom + 'px');
+            break;
+
+            case 'left':
+              var paddingLeft = '30';
+              var paddingBottom = '20';
+              $('.u20176-mt_btn_top').css('left', paddingLeft + 'px');
+              $('.u20176-mt_btn_top').css('bottom', paddingBottom + 'px');
+            break;
+
+            case 'right':
+              var paddingRight = '30';
+              var paddingBottom = '20';
+              $('.u20176-mt_btn_top').css('right', paddingRight + 'px');
+              $('.u20176-mt_btn_top').css('bottom', paddingBottom + 'px');
+            break;
+
+            default: 
+              var paddingBottom = '20';
+              $('.u20176-mt_btn_top').css('left', '50%');
+              $('.u20176-mt_btn_top').css('bottom', paddingBottom + 'px');
+            break;
+          }
+
+          $('.u20176-mt_btn_top').on('click', function(e){
+            
+            e.preventDefault();
+            
+            $base.animate({
+              scrollTop: 0
+            }, scrollSpeed);
+
+          });
+
+          var showButtonValue = parseInt('100');
+
+          var showOrHideButton = debounce(function(){
+
+            if ($(window).scrollTop() > showButtonValue) {
+              $('.u20176-mt_btn_top').addClass('show_scroll');
+            } else {
+              $('.u20176-mt_btn_top').removeClass('show_scroll');
+            }
+
+          }, 200);
+
+          $(window).scroll(function(){
+            showOrHideButton();
+          });
+
+
+        });
+      }  
+      </script>
+
+    
    </body>
 </html>
