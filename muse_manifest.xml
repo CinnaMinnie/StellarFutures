@@ -1,33 +1,26 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="StellarFutures.ca" resolutions="1x" timestamp="1566587683532">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="StellarFutures.ca" resolutions="1x" timestamp="1566909885634">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="226961099" ref="index"/>
-    <file name="nomq_index.css" crc="3899981126" ref="index"/>
+    <file name="index.css" crc="3933358926" ref="index"/>
+    <file name="nomq_index.css" crc="4138473959" ref="index"/>
     <file name="carington-house.css" crc="225522478" ref="carington-house"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
     <file name="nomq_carington-house.css" crc="4061826096" ref="carington-house"/>
-    <file name="master_a-master.css" crc="3948778410" ref="index:carington-house:atlantic-salmon-cycle"/>
-    <file name="nomq_preview_master_a-master.css" crc="498782249" ref="index:carington-house:atlantic-salmon-cycle"/>
+    <file name="master_a-master.css" crc="3899197539" ref="index:carington-house:atlantic-salmon-cycle"/>
+    <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="index:carington-house:atlantic-salmon-cycle"/>
     <file name="iefonts_carington-house.css" crc="3824530138" ref="carington-house"/>
     <file name="atlantic-salmon-cycle.css" crc="90179763" ref="atlantic-salmon-cycle"/>
     <file name="nomq_atlantic-salmon-cycle.css" crc="455639441" ref="atlantic-salmon-cycle"/>
   </folder>
   <folder name="assets">
-    <folder name="webanim02">
+    <folder name="overoutsmartgrid_01">
       <folder name="images">
-        <file name="CachedTexturedBitmap_15.png" crc="23563603" mt="1566587580000"/>
-        <file name="CachedTexturedBitmap_16.png" crc="474508768" mt="1566587580000"/>
-        <file name="CachedTexturedBitmap_30.png" crc="3800215719" mt="1566587580000"/>
-        <file name="CachedTexturedBitmap_32.png" crc="37621352" mt="1566587580000"/>
-        <file name="CachedTexturedBitmap_49.png" crc="372794416" mt="1566587580000"/>
-        <file name="CachedTexturedBitmap_53.png" crc="4037018287" mt="1566587580000"/>
-        <file name="CachedTexturedBitmap_54.png" crc="3941939401" mt="1566587580000"/>
-        <file name="CachedTexturedBitmap_94.png" crc="3869758494" mt="1566587580000"/>
-        <file name="CachedTexturedBitmap_95.png" crc="3938994906" mt="1566587580000"/>
-        <file name="CachedTexturedBitmap_96.png" crc="3938994906" mt="1566587580000"/>
+        <file name="CachedTexturedBitmap_130.png" crc="60044383" mt="1566909768000"/>
+        <file name="CachedTexturedBitmap_133.png" crc="3958658869" mt="1566909768000"/>
+        <file name="overOutSmartGrid_01_atlas_.png" crc="4135279661" mt="1566909768000"/>
       </folder>
-      <file name="WebAnim01.js" crc="4172862946" mt="1566587580000"/>
-      <file name="WebAnim01.html" crc="3759936331" mt="1566587580000"/>
+      <file name="overOutSmartGrid_01.js" crc="516577193" mt="1566909768000"/>
+      <file name="overOutSmartGrid_01.html" crc="3791271195" mt="1566909768000"/>
     </folder>
     <file name="caringtonpromo_09.mp4" crc="4019077088" seo="true" mt="1559752554000"/>
     <file name="4k-wallpaper-astro-astrology-1146134.jpg" crc="4023508634" seo="true" mt="1566575492000"/>
@@ -152,7 +145,7 @@
     <file name="engeniouslink02-u2009-r-fr.png" crc="138559464" ref="index"/>
     <file name="test01-u21236-fr2.png" crc="86180730" ref="index"/>
   </folder>
-  <file name="index.html" crc="148325045" seo="true" mt="1566587630031" redirect="true"/>
+  <file name="index.html" crc="4043727311" seo="true" mt="1566909785138" redirect="true"/>
   <file name="carington-house.html" crc="470847239" seo="true" mt="1566576831172" redirect="true"/>
   <file name="atlantic-salmon-cycle.html" crc="3985502098" seo="true" mt="1566576823673" redirect="true"/>
 </manifest>
