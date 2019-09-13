@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="StellarFutures.ca" resolutions="1x" timestamp="1568387436352">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="StellarFutures.ca" resolutions="1x" timestamp="1568388037496">
   <folder name="css">
     <file name="site_global.css" crc="395299634"/>
-    <file name="index.css" crc="4216379287" ref="index"/>
-    <file name="nomq_index.css" crc="3930938646" ref="index"/>
+    <file name="index.css" crc="117966379" ref="index"/>
+    <file name="nomq_index.css" crc="3993220981" ref="index"/>
     <file name="carington-house.css" crc="365753213" ref="carington-house"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
     <file name="nomq_carington-house.css" crc="314306620" ref="carington-house"/>
@@ -220,7 +220,7 @@
     <file name="healthcare_01-u26105-fr.jpg" crc="158322524" ref="healthcare"/>
     <file name="healthcare_02-u26106-fr.jpg" crc="70791085" ref="healthcare"/>
   </folder>
-  <file name="index.html" crc="3852579867" seo="true" mt="1568387033026" redirect="true"/>
+  <file name="index.html" crc="4104889628" seo="true" mt="1568387925851" redirect="true"/>
   <file name="carington-house.html" crc="204055944" seo="true" mt="1568225139952" redirect="true"/>
   <file name="atlantic-salmon-cycle.html" crc="4103981224" seo="true" mt="1568225148032" redirect="true"/>
   <file name="ocean-careers.html" crc="99119047" seo="true" mt="1568225114955" redirect="true"/>
