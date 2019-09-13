@@ -17,12 +17,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=395299634"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=3856131846"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=115392120"/>
   <link rel="stylesheet" type="text/css" href="css/index.css?crc=283309008" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?crc=3824530138"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?crc=3824530138"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?crc=498782249"/>
   <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=3928145761" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- Other scripts -->
@@ -39,13 +39,17 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 .thumb, .thumb-ico {
 transition:all 0.4s ease 0s;
 }
-.nonblock.nontext.museBGSize.grpelem.shared_content {
+#u29310, #u29322, #u29334, #u29346 { opacity: 0; transition: opacity 1s ease; }
+
+#u2009, #u2027, #u2047, #u2942, #u17057, #u17085, #u17071, #u17099 {
 	transition: box-shadow 0.5s ease;
-	box-shadow: 0px 0px 0px 0px rgba(169, 169, 169, 0.75) inset;
-}
-.nonblock.nontext.museBGSize.grpelem.shared_content:hover {
-	box-shadow: 25vw 0px 0px 0px rgba(169, 169, 169, 0.75) inset;
-}
+	box-shadow: 0px 0px 0px 0px rgba(169, 169, 169, 0.75) inset;}
+
+#u2009:hover,#u2027:hover,#u2942:hover,#u2047:hover {
+	box-shadow: 25vw 0px 0px 0px rgba(169, 169, 169, 0.75) inset;}
+
+#u2009:hover  #u29310-4,#u2027:hover  #u29322-4,#u2942:hover  #u29334-4,#u2047:hover  #u29346-4 {
+	opacity: 1;}
 </style>
   <!--HTML Widget code-->
   
