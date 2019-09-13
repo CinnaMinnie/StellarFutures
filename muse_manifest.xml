@@ -1,16 +1,16 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="StellarFutures.ca" resolutions="1x" timestamp="1568389617513">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="StellarFutures.ca" resolutions="1x" timestamp="1568390322362">
   <folder name="css">
     <file name="site_global.css" crc="395299634"/>
-    <file name="master_a-master.css" crc="115392120" ref="engenious:carington-house:index:atlantic-salmon-cycle:citizenship:environment---climate-change:ocean-careers:healthcare:smartgrid"/>
-    <file name="nomq_preview_master_a-master.css" crc="498782249" ref="engenious:carington-house:index:atlantic-salmon-cycle:citizenship:environment---climate-change:ocean-careers:healthcare:smartgrid"/>
+    <file name="master_a-master.css" crc="3856131846" ref="engenious:carington-house:index:atlantic-salmon-cycle:citizenship:environment---climate-change:ocean-careers:healthcare:smartgrid"/>
+    <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="engenious:carington-house:index:atlantic-salmon-cycle:citizenship:environment---climate-change:ocean-careers:healthcare:smartgrid"/>
     <file name="engenious.css" crc="172666411" ref="engenious"/>
     <file name="nomq_engenious.css" crc="4221375878" ref="engenious"/>
     <file name="iefonts_engenious.css" crc="3824530138" ref="engenious"/>
     <file name="carington-house.css" crc="4117660316" ref="carington-house"/>
     <file name="nomq_carington-house.css" crc="314306620" ref="carington-house"/>
     <file name="iefonts_carington-house.css" crc="3824530138" ref="carington-house"/>
-    <file name="index.css" crc="283309008" ref="index"/>
-    <file name="nomq_index.css" crc="3928145761" ref="index"/>
+    <file name="index.css" crc="3791156112" ref="index"/>
+    <file name="nomq_index.css" crc="4119459081" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
     <file name="atlantic-salmon-cycle.css" crc="3926082872" ref="atlantic-salmon-cycle"/>
     <file name="nomq_atlantic-salmon-cycle.css" crc="455639441" ref="atlantic-salmon-cycle"/>
@@ -204,7 +204,7 @@
     <file name="healthcare_01-u26105-fr.jpg" crc="158322524" ref="healthcare"/>
     <file name="healthcare_02-u26106-fr.jpg" crc="70791085" ref="healthcare"/>
   </folder>
-  <file name="index.html" crc="330718610" seo="true" mt="1568389548582" redirect="true"/>
+  <file name="index.html" crc="24593789" seo="true" mt="1568390200931" redirect="true"/>
   <file name="carington-house.html" crc="4281864379" seo="true" mt="1568225139952" redirect="true"/>
   <file name="atlantic-salmon-cycle.html" crc="32564198" seo="true" mt="1568225148032" redirect="true"/>
   <file name="ocean-careers.html" crc="3765042712" seo="true" mt="1568225114955" redirect="true"/>
