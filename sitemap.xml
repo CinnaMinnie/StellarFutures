@@ -8,7 +8,7 @@
   </url>
   <url>
     <loc>http://StellarFutures.ca/ocean-careers.html</loc>
-    <lastmod>2019-09-11</lastmod>
+    <lastmod>2019-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -17,7 +17,7 @@
   </url>
   <url>
     <loc>http://StellarFutures.ca/citizenship.html</loc>
-    <lastmod>2019-09-11</lastmod>
+    <lastmod>2019-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -32,7 +32,7 @@
   </url>
   <url>
     <loc>http://StellarFutures.ca/atlantic-salmon-cycle.html</loc>
-    <lastmod>2019-09-11</lastmod>
+    <lastmod>2019-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -47,13 +47,19 @@
   </url>
   <url>
     <loc>http://StellarFutures.ca/engenious.html</loc>
-    <lastmod>2019-09-11</lastmod>
+    <lastmod>2019-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://StellarFutures.ca/images/clientsandpartnersengenious_01718x165.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://StellarFutures.ca/images/clientsandpartnersengenious_01493x113.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://StellarFutures.ca/environment---climate-change.html</loc>
-    <lastmod>2019-09-11</lastmod>
+    <lastmod>2019-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
