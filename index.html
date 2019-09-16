@@ -18,13 +18,13 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>StellarFutures</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=4070780348"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=4280301261"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=93497596" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=309983087"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=47599839" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?crc=3824530138"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?crc=498782249"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=3795355070" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?crc=3824530138"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=4128001888" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -40,17 +40,23 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 .thumb, .thumb-ico {
 transition:all 0.4s ease 0s;
 }
-#u29310-4, #u29322-4, #u29334-4, #u29346-4, #u29373-4, #u29379-4, #u29384-4, #u29389-4 { opacity: 0; transition: opacity 1s ease; pointer-events: none; }
+#u29310-4, #u29322-4, #u29334-4, #u29346-4, #u29373-4, #u29379-4, #u29384-4, #u29389-4 { opacity: 0; transition: opacity 1s ease; }
 
-#u2009, #u2027, #u2047, #u2942, #u17057, #u17085, #u17071, #u17099 {
-	transition: box-shadow 0.5s ease;
-	box-shadow: 0px 0px 0px 0px rgba(37, 13, 70, 0.75) inset;}
+#u2009:after, #u2027:after, #u2047:after, #u2942:after, #u17057:after, #u17085:after, #u17071:after, #u17099:after {
+	transition: width 0.5s ease;
+	content: "";
+	position: absolute;
+	background-color: rgba(37, 13, 70, 0.75); 
+	width: 0%;
+	height: 100%;
+	top: 0;
+	left: 0;
 
-#u2009:hover,#u2027:hover,#u2942:hover,#u2047:hover, #u17057:hover, #u17085:hover, #u17071:hover, #u17099:hover {
-	box-shadow: 25vw 0px 0px 0px rgba(37, 13, 70, 0.75) inset;}
+#u2009:hover:after,#u2027:hover:after,#u2942:hover:after,#u2047:hover:after, #u17057:hover:after, #u17085:hover:after, #u17071:hover:after, #u17099:hover:after {
+	width: 100%;
 
 #u2009:hover~#u29310-4,#u2027:hover~#u29322-4,#u2942:hover~#u29334-4,#u2047:hover~#u29346-4,#u17057:hover~#u29373-4,#u17071:hover~#u29379-4,#u17085:hover~#u29384-4,#u17099:hover~#u29389-4 {
-	opacity: 1; pointer-events: none;}
+	opacity: 1;}
 </style>
   <!--HTML Widget code-->
   
@@ -388,50 +394,64 @@ to use and available for download at: http://adobemuseexpert.com/
      <div class="clearfix colelem shared_content" id="u2000-4" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-content-guid="u2000-4_content"><!-- content -->
       <p>02 portfolio</p>
      </div>
-     <div class="clearfix colelem" id="ppu2027"><!-- group -->
-      <div class="clearfix grpelem shared_content" id="pu2027" data-content-guid="pu2027_content"><!-- group -->
-       <a class="nonblock nontext museBGSize grpelem" id="u2027" href="smartgrid.html"><!-- content --><div class="fluid_height_spacer"></div></a>
-       <div class="clearfix grpelem" id="u29322-4"><!-- content -->
-        <p>Smartgrids</p>
+     <div class="clearfix colelem shared_content" id="u31631" data-content-guid="u31631_content"><!-- group -->
+      <div class="clearfix grpelem" id="ppu2009"><!-- column -->
+       <div class="clearfix colelem" id="pu2009"><!-- group -->
+        <a class="nonblock nontext museBGSize grpelem" id="u2009" href="engenious.html"><!-- content --><div class="fluid_height_spacer"></div></a>
+        <div class="clearfix grpelem" id="u29310-4"><!-- content -->
+         <p>EnGenious</p>
+        </div>
+       </div>
+       <div class="clearfix colelem" id="pu17057"><!-- group -->
+        <a class="nonblock nontext museBGSize grpelem" id="u17057" href="atlantic-salmon-cycle.html"><!-- content --><div class="fluid_height_spacer"></div></a>
+        <div class="clearfix grpelem" id="u29373-4"><!-- content -->
+         <p>The Atlantic Salmon Cycle</p>
+        </div>
        </div>
       </div>
-      <div class="clearfix grpelem" id="pu2047"><!-- group -->
-       <a class="nonblock nontext museBGSize grpelem shared_content" id="u2047" href="carington-house.html" data-content-guid="u2047_content"><!-- content --><div class="fluid_height_spacer"></div></a>
-       <div class="clearfix grpelem shared_content" id="u29346-4" data-content-guid="u29346-4_content"><!-- content -->
-        <p>Carington House</p>
+      <div class="clearfix grpelem" id="ppu2027"><!-- column -->
+       <div class="clearfix colelem" id="pu2027"><!-- group -->
+        <a class="nonblock nontext museBGSize grpelem" id="u2027" href="smartgrid.html"><!-- content --><div class="fluid_height_spacer"></div></a>
+        <div class="clearfix grpelem" id="u29322-4"><!-- content -->
+         <p>Smartgrids</p>
+        </div>
+       </div>
+       <div class="clearfix colelem" id="pu17071"><!-- group -->
+        <a class="nonblock nontext museBGSize grpelem" id="u17071" href="citizenship.html"><!-- content --><div class="fluid_height_spacer"></div></a>
+        <div class="clearfix grpelem" id="u29379-4"><!-- content -->
+         <p>Citizenship</p>
+        </div>
        </div>
       </div>
-      <a class="nonblock nontext museBGSize grpelem shared_content" id="u2942" href="ocean-careers.html" data-content-guid="u2942_content"><!-- content --><div class="fluid_height_spacer"></div></a>
-      <a class="nonblock nontext transition museBGSize grpelem shared_content" id="u2009" href="engenious.html" data-content-guid="u2009_content"><!-- content --><div class="fluid_height_spacer"></div></a>
-      <div class="clearfix grpelem shared_content" id="u29310-4" data-content-guid="u29310-4_content"><!-- content -->
-       <p>EnGenious</p>
-      </div>
-      <div class="clearfix grpelem shared_content" id="u29334-4" data-content-guid="u29334-4_content"><!-- content -->
-       <p>Ocean Careers</p>
-      </div>
-     </div>
-     <div class="clearfix colelem shared_content" id="ppu17071" data-content-guid="ppu17071_content"><!-- group -->
-      <div class="clearfix grpelem" id="pu17071"><!-- group -->
-       <a class="nonblock nontext museBGSize grpelem" id="u17071" href="citizenship.html"><!-- content --><div class="fluid_height_spacer"></div></a>
-       <div class="clearfix grpelem" id="u29379-4"><!-- content -->
-        <p>Citizenship</p>
+      <div class="clearfix grpelem" id="ppu2942"><!-- column -->
+       <div class="clearfix colelem" id="pu2942"><!-- group -->
+        <a class="nonblock nontext museBGSize grpelem" id="u2942" href="ocean-careers.html"><!-- content --><div class="fluid_height_spacer"></div></a>
+        <div class="clearfix grpelem" id="u29334-4"><!-- content -->
+         <p>Ocean Careers</p>
+        </div>
+       </div>
+       <div class="clearfix colelem" id="pu17085"><!-- group -->
+        <a class="nonblock nontext museBGSize grpelem" id="u17085" href="healthcare.html"><!-- content --><div class="fluid_height_spacer"></div></a>
+        <div class="clearfix grpelem" id="u29384-4"><!-- content -->
+         <p>Healthcare</p>
+        </div>
+        <a class="anchor_item grpelem" id="portfolio2" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
        </div>
       </div>
-      <div class="clearfix grpelem" id="pu17099"><!-- group -->
-       <a class="nonblock nontext museBGSize grpelem" id="u17099" href="environment---climate-change.html"><!-- content --><div class="fluid_height_spacer"></div></a>
-       <div class="clearfix grpelem" id="u29389-4"><!-- content -->
-        <p>Resilience &amp; Climate Change</p>
+      <div class="clearfix grpelem" id="ppu2047"><!-- column -->
+       <div class="clearfix colelem" id="pu2047"><!-- group -->
+        <a class="nonblock nontext museBGSize grpelem" id="u2047" href="carington-house.html"><!-- content --><div class="fluid_height_spacer"></div></a>
+        <div class="clearfix grpelem" id="u29346-4"><!-- content -->
+         <p>Carington House</p>
+        </div>
+       </div>
+       <div class="clearfix colelem" id="pu17099"><!-- group -->
+        <a class="nonblock nontext museBGSize grpelem" id="u17099" href="environment---climate-change.html"><!-- content --><div class="fluid_height_spacer"></div></a>
+        <div class="clearfix grpelem" id="u29389-4"><!-- content -->
+         <p>Resilience &amp; Climate Change</p>
+        </div>
        </div>
       </div>
-      <a class="nonblock nontext museBGSize grpelem" id="u17057" href="atlantic-salmon-cycle.html"><!-- content --><div class="fluid_height_spacer"></div></a>
-      <div class="clearfix grpelem" id="u29373-4"><!-- content -->
-       <p>The Atlantic Salmon Cycle</p>
-      </div>
-      <a class="nonblock nontext museBGSize grpelem" id="u17085" href="healthcare.html"><!-- content --><div class="fluid_height_spacer"></div></a>
-      <div class="clearfix grpelem" id="u29384-4"><!-- content -->
-       <p>Healthcare</p>
-      </div>
-      <a class="anchor_item grpelem" id="portfolio2" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
      </div>
      <div class="clearfix colelem" id="pu17141"><!-- group -->
       <div class="grpelem shared_content" id="u17141" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pu17141" data-content-guid="u17141_content"><!-- simple frame --></div>
@@ -626,19 +646,10 @@ to use and available for download at: http://adobemuseexpert.com/
      <span class="clearfix colelem placeholder" data-placeholder-for="u1635-4_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="pu17738_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u2000-4_content"><!-- placeholder node --></span>
-     <div class="clearfix colelem temp_no_id" data-orig-id="ppu2027"><!-- group -->
-      <span class="clearfix grpelem placeholder" data-placeholder-for="pu2027_content"><!-- placeholder node --></span>
-      <div class="clearfix grpelem" id="pu20176"><!-- group -->
-       <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u20176_content"><!-- placeholder node --></span>
-       <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u2047_content"><!-- placeholder node --></span>
-       <span class="clearfix grpelem placeholder" data-placeholder-for="u29346-4_content"><!-- placeholder node --></span>
-      </div>
-      <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u2942_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext transition museBGSize grpelem placeholder" data-placeholder-for="u2009_content"><!-- placeholder node --></span>
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u29310-4_content"><!-- placeholder node --></span>
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u29334-4_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem" id="pu20176"><!-- group -->
+      <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u20176_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u31631_content"><!-- placeholder node --></span>
      </div>
-     <span class="clearfix colelem placeholder" data-placeholder-for="ppu17071_content"><!-- placeholder node --></span>
      <div class="clearfix colelem temp_no_id" data-orig-id="pu17141"><!-- group -->
       <span class="grpelem placeholder" data-placeholder-for="u17141_content"><!-- placeholder node --></span>
       <span class="browser_width grpelem placeholder" data-placeholder-for="u28952-bw_content"><!-- placeholder node --></span>
