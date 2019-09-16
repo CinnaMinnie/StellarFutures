@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="StellarFutures.ca" resolutions="1x" timestamp="1568390322362">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="StellarFutures.ca" resolutions="1x" timestamp="1568637796620">
   <folder name="css">
-    <file name="site_global.css" crc="395299634"/>
-    <file name="master_a-master.css" crc="3856131846" ref="engenious:carington-house:index:atlantic-salmon-cycle:citizenship:environment---climate-change:ocean-careers:healthcare:smartgrid"/>
+    <file name="site_global.css" crc="4070780348"/>
+    <file name="master_a-master.css" crc="309983087" ref="engenious:carington-house:index:atlantic-salmon-cycle:citizenship:environment---climate-change:ocean-careers:healthcare:smartgrid"/>
     <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="engenious:carington-house:index:atlantic-salmon-cycle:citizenship:environment---climate-change:ocean-careers:healthcare:smartgrid"/>
     <file name="engenious.css" crc="172666411" ref="engenious"/>
     <file name="nomq_engenious.css" crc="4221375878" ref="engenious"/>
@@ -9,8 +9,8 @@
     <file name="carington-house.css" crc="4117660316" ref="carington-house"/>
     <file name="nomq_carington-house.css" crc="314306620" ref="carington-house"/>
     <file name="iefonts_carington-house.css" crc="3824530138" ref="carington-house"/>
-    <file name="index.css" crc="3791156112" ref="index"/>
-    <file name="nomq_index.css" crc="4119459081" ref="index"/>
+    <file name="index.css" crc="93497596" ref="index"/>
+    <file name="nomq_index.css" crc="3795355070" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
     <file name="atlantic-salmon-cycle.css" crc="3926082872" ref="atlantic-salmon-cycle"/>
     <file name="nomq_atlantic-salmon-cycle.css" crc="455639441" ref="atlantic-salmon-cycle"/>
@@ -51,14 +51,14 @@
     <file name="form_check.php" crc="4020933626" ref="index"/>
     <file name="form_throttle.php" crc="4259590256" ref="index"/>
     <file name="form_process.php" crc="37464564" ref="index"/>
-    <file name="form-u24164.php" crc="3883901618" ref="index"/>
+    <file name="form-u24164.php" crc="3906513621" ref="index"/>
     <file name="jquery.musemenu.js" crc="510910590" ref="index:carington-house:atlantic-salmon-cycle:ocean-careers:citizenship:environment---climate-change:smartgrid:engenious:healthcare"/>
     <file name="html5shiv.js" crc="4241844378" ref="index:carington-house:atlantic-salmon-cycle:ocean-careers:citizenship:environment---climate-change:smartgrid:engenious:healthcare"/>
     <file name="jquery.museresponsive.js" crc="527716135" ref="index:carington-house:atlantic-salmon-cycle:ocean-careers:citizenship:environment---climate-change:smartgrid:engenious:healthcare"/>
     <file name="require.js" crc="7928878" ref="index:carington-house:atlantic-salmon-cycle:ocean-careers:citizenship:environment---climate-change:smartgrid:engenious:healthcare"/>
   </folder>
   <folder name="images">
-    <file name="stellarfutures_04-02.png" crc="4017792761" ref="index">
+    <file name="stellarfutures_04-02.png" crc="511049130" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
@@ -203,8 +203,9 @@
     </file>
     <file name="healthcare_01-u26105-fr.jpg" crc="158322524" ref="healthcare"/>
     <file name="healthcare_02-u26106-fr.jpg" crc="70791085" ref="healthcare"/>
+    <file name="stellarfutures-favicon.ico" crc="488703069" ref="index"/>
   </folder>
-  <file name="index.html" crc="24593789" seo="true" mt="1568390200931" redirect="true"/>
+  <file name="index.html" crc="1945170" seo="true" mt="1568637787581" redirect="true"/>
   <file name="carington-house.html" crc="4281864379" seo="true" mt="1568225139952" redirect="true"/>
   <file name="atlantic-salmon-cycle.html" crc="32564198" seo="true" mt="1568225148032" redirect="true"/>
   <file name="ocean-careers.html" crc="3765042712" seo="true" mt="1568225114955" redirect="true"/>
