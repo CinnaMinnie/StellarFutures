@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="StellarFutures.ca" resolutions="1x" timestamp="1568644901544">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="StellarFutures.ca" resolutions="1x" timestamp="1568646283148">
   <folder name="css">
     <file name="site_global.css" crc="4070780348"/>
-    <file name="master_a-master.css" crc="309983087" ref="environment---climate-change:atlantic-salmon-cycle:citizenship:index:healthcare:engenious:carington-house:ocean-careers:smartgrid"/>
-    <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="environment---climate-change:atlantic-salmon-cycle:citizenship:index:healthcare:engenious:carington-house:ocean-careers:smartgrid"/>
+    <file name="master_a-master.css" crc="4280301261" ref="environment---climate-change:atlantic-salmon-cycle:citizenship:index:healthcare:engenious:carington-house:ocean-careers:smartgrid"/>
+    <file name="nomq_preview_master_a-master.css" crc="498782249" ref="environment---climate-change:atlantic-salmon-cycle:citizenship:index:healthcare:engenious:carington-house:ocean-careers:smartgrid"/>
     <file name="environment---climate-change.css" crc="166051284" ref="environment---climate-change"/>
     <file name="nomq_environment---climate-change.css" crc="3764160033" ref="environment---climate-change"/>
     <file name="iefonts_environment---climate-change.css" crc="3824530138" ref="environment---climate-change"/>
@@ -13,8 +13,8 @@
     <file name="index.css" crc="220503543" ref="index"/>
     <file name="nomq_index.css" crc="3811902970" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
-    <file name="healthcare.css" crc="258160043" ref="healthcare"/>
-    <file name="nomq_healthcare.css" crc="3882149314" ref="healthcare"/>
+    <file name="healthcare.css" crc="3992645762" ref="healthcare"/>
+    <file name="nomq_healthcare.css" crc="4206738724" ref="healthcare"/>
     <file name="engenious.css" crc="3987519649" ref="engenious"/>
     <file name="nomq_engenious.css" crc="275705722" ref="engenious"/>
     <file name="iefonts_engenious.css" crc="3824530138" ref="engenious"/>
@@ -202,16 +202,16 @@
     <file name="clientsandpartnersengenious_01493x113.jpg" crc="4260847647" seo="true" ref="engenious">
       <caption webpage="engenious" alt=""/>
     </file>
-    <file name="healthcare_01.jpg" crc="3926063858" ref="healthcare">
+    <file name="healthcare_03.jpg" crc="4023366678" ref="healthcare">
       <caption webpage="healthcare" alt=""/>
     </file>
     <file name="healthcare_02.jpg" crc="181286540" ref="healthcare">
       <caption webpage="healthcare" alt=""/>
     </file>
-    <file name="healthcare_01-u26105-fr.jpg" crc="158322524" ref="healthcare"/>
+    <file name="healthcare_03-u26105-fr.jpg" crc="4007055742" ref="healthcare"/>
     <file name="healthcare_02-u26106-fr.jpg" crc="70791085" ref="healthcare"/>
   </folder>
-  <file name="index.html" crc="3911548992" seo="true" mt="1568644857524" redirect="true"/>
+  <file name="index.html" crc="3880484353" seo="true" mt="1568644857524" redirect="true"/>
   <file name="carington-house.html" crc="3797724432" seo="true" mt="1568225139952" redirect="true"/>
   <file name="atlantic-salmon-cycle.html" crc="428539005" seo="true" mt="1568638874766" redirect="true"/>
   <file name="ocean-careers.html" crc="4207542217" seo="true" mt="1568638888169" redirect="true"/>
@@ -219,5 +219,5 @@
   <file name="environment---climate-change.html" crc="260738872" seo="true" mt="1568638846523" redirect="true"/>
   <file name="smartgrid.html" crc="510493881" seo="true" mt="1568225130120" redirect="true"/>
   <file name="engenious.html" crc="4229464907" seo="true" mt="1568638920634" redirect="true"/>
-  <file name="healthcare.html" crc="3973487665" seo="true" mt="1568225096515" redirect="true"/>
+  <file name="healthcare.html" crc="4044029222" seo="true" mt="1568645893961" redirect="true"/>
 </manifest>
